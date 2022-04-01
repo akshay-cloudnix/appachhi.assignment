@@ -2,6 +2,9 @@
     --primary-color: #39498B;
     --secondary-color: #8299ff;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -389,12 +392,15 @@ footer {
     }
     .welcome-block h2 {
         margin-bottom: 15px;
-        margin-top: 25px;
+        margin-top: 30px;
         font-size: 21px;
         letter-spacing: .03em;
     }
+    .welcome-block p {
+        text-align: justify;
+    }
     .welcome-block p, .reports-tab.nav-tabs.nav-justified>li>a, .report-card .reports-count .report-label, .report-card .reports-count.no-report, .report-card.report-new .report-add p, .report-card.report-new .report-list .report-options #toggle_report_new .glyphicon {
-        font-size: 1.15em;
+        font-size: 1.2em;
     }
     .welcome-block .section-img {
         width: 70%;
@@ -405,8 +411,14 @@ footer {
     .reports-tab {
         text-align: center;
     }
-    .reports-tab.nav-tabs.nav-justified>li {
+    .reports-tab>li {
         display: inline-block;
+        padding: 10px 15px;
+        text-align: center;
+    }
+    .reports-tab a {
+        display: inline-block;
+        padding: 0;
     }
     .report-card {
         margin: 10px auto;

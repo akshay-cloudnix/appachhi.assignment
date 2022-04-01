@@ -8,6 +8,7 @@
     <meta name="description" content="Find Functional Bugs, Performance bottlenecks, Crashes &amp; ANRs across real devices in your app in minutes">
     <meta name="keywords" content="Mobile App Testing, Android Testing, Performance Testing, Functional Testing, Crash Testing, Installation Testing, What to fix">
     <link rel="canonical" href="https://appachhi.com/">
+    <link rel="shortcut icon" href="fevicon.ico" />
 
     <!-- Plugin - Bootstrap 3 -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -23,6 +24,7 @@
 </head>
 <body>
     <div class="top-block">
+        <!-- Transparent Header -->
         <header>
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
@@ -32,7 +34,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="img/Logo_pro.png" class="img-responsive" alt="Appachhi Logo"></a>
+                        <a class="navbar-brand" onClick="window.location.reload();"><img src="img/Logo_pro.png" class="img-responsive" alt="Appachhi Logo"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav main-menu">
@@ -52,6 +54,8 @@
                 </div>
               </nav>
         </header>
+
+        <!-- Welcome to AppAchhi Block -->
         <section>
             <div class="container welcome-block">
                 <div class="col-sm-5">
@@ -62,11 +66,10 @@
                 </div>
                 <div class="col-sm-7 section-img"></div>
             </div>
-
         </section>
         
+        <!-- Centered Tabs to choose Platform -->
         <div class="container">
-            <!-- Centered Tabs -->
             <ul class="nav nav-tabs nav-justified reports-tab">
                 <li class="active"><a href="#">Android apps</a></li>
                 <li><a href="#">iOS apps</a></li>
@@ -76,9 +79,14 @@
             </ul>
         </div>
 
+        <!-- Additional height to overlap Reports Block -->
         <div class="cover-img-block"></div>
     </div>
+
+    <!-- Reports Block -->
     <div class="container reports-block">
+
+        <!-- Add Report -->
         <div data-ripple="rgba(0,0,0, 0.1)" class="report-card report-new">
             <div id="toggle_report_new" class="report-add">
                 <img src="img/add-report.png" alt="">
@@ -93,6 +101,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Existing Report -->
         <div data-ripple="rgba(0,0,0, 0.1)" class="report-card">
             <div class="grid-container">
                 <div class="company-logo"><img src="img/report1.png" class="img-responsive" alt=""></div>
@@ -102,6 +112,8 @@
                 <div class="reports-progress"><img src="img/report-progress.png" class="img-responsive" alt=""></div>
             </div>
         </div>
+        
+        <!-- Existing Report -->
         <div data-ripple="rgba(0,0,0, 0.1)" class="report-card">
             <div class="grid-container">
                 <div class="company-logo"><img src="img/report2.png" class="img-responsive" alt=""></div>
@@ -115,8 +127,11 @@
             </div>
         </div>
     </div>
+
+    <!-- Add Button -->
     <button class="add-btn">+</button>
 
+    <!-- Footer -->
     <footer>© 2019 AppAchhi Technologies. All Rights Reserved. Patent Pending.</footer>
 
     <!-- JS -->
